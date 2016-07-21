@@ -1,0 +1,15 @@
+# Site settings
+title: "Jekyll Blog Base"
+email: "team@variantstudios.com"
+description: "Our base repo for blog jekyll-based projects"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+#timezone: America/Denver - Don't set for CloudCannon...for reasons.
+version: "3.0.3" # the version of jekyll
+author.name: "Variant Studios"
+author.email: "team@variantstudios.com"
+
+# Permalinks
+permalink: pretty
+
+exclude: ["vendor","node_modules","package.json","Gemfile","gulpfile.js","*.scss"]

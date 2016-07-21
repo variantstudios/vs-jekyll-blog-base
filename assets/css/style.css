@@ -1,0 +1,56 @@
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+html {
+    height: 100%;
+}
+html body {
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+    background: #EEF1F6;
+    margin: 0;
+    padding: 20px;
+    font-family: sans-serif;
+    color: #111;
+}
+header {
+    width: 900px;
+    margin: 0 auto 40px auto;
+}
+header .logo {
+    margin: 0;
+    display: inline-block;
+    width: 49%;
+}
+header nav {
+    display: inline-block;
+    width: 49%;
+    text-align: right;
+}
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+header nav ul li a {
+    text-decoration: none;
+}
+.content {
+    background: #FFF;
+    width: 820px;
+    padding: 20px 40px;
+    margin: 0 auto;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+}
+footer {
+    width: 900px;
+    margin: 40px auto;
+}
